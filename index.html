@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="robots" content="noindex, nofollow" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,700,0..100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container" role="main">
+      <div class="card">
+        <picture class="card__image">
+          <source
+            srcset="images/image-product-desktop.jpg"
+            media="(min-width: 600px)"
+            width="300"
+            height="450"
+          />
+          <img
+            src="images/image-product-mobile.jpg"
+            alt="Image of Gabrielle Essence Eau De Parfum"
+            width="344"
+            height="250"
+            decoding="async"
+            class="card__thumbnail"
+          />
+        </picture>
+        <div class="card__text">
+          <p class="card__category">Perfume</p>
+          <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="card__description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <p class="card__price">
+            <span class="card__new-price">$149.99</span
+            ><span class="card__old-price">$169.99</span>
+          </p>
+          <button class="card__button">
+            <img src="images/icon-cart.svg" />Add to Cart
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution" role="contentinfo">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/st0272">Suzunatsu</a>.
+    </footer>
+  </body>
+</html>
