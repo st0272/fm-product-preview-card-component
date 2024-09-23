@@ -31,8 +31,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [https://github.com/st0272/fm-product-preview-card-component](https://github.com/st0272/fm-product-preview-card-component)
-- Live Site URL: [https://st0272.github.io/fm-product-preview-card-component/](https://st0272.github.io/fm-product-preview-card-component/)
+- Solution URL: [fm-product-preview-card-component](https://github.com/st0272/fm-product-preview-card-component)
+- Live Site URL: [Product preview card component solution](https://st0272.github.io/fm-product-preview-card-component/)
 
 ## My process
 
